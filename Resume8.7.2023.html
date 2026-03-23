@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jimmy's Resume</title>
+    <style>
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+html
+{
+	font-size:100%;
+}
+
+body
+{
+	-webkit-font-smoothing:antialiased;
+	color:#333332;
+	font-family:Georgia;
+	font-size:18px;
+	font-weight:400;
+	line-height:1.4;
+	text-rendering:optimizeLegibility;
+}
+
+.skill-set li:hover
+{
+	background:#5d466c;
+}
+
+h1
+{
+	color:#1e2328;
+}
+
+.wrapper
+{
+	height:100%;
+}
+
+.left
+{
+	background-color:#1e2328;
+	border-right:1px solid rgba(0,0,0,.05);
+	float:right;
+	height:100%;
+	margin-left:-1px;
+	min-width:256px;
+	position:fixed;
+	width:33.33%;
+  
+}
+
+.right
+{
+	float:right;
+	height:100%;
+	position:relative;
+	width:66.66%;
+}
+
+
+.name-hero
+{
+	background:rgba(0,0,0,.001);
+	bottom:0;
+	height:290px;
+	left:0;
+	margin:auto;
+	position:absolute;
+	right:0;
+	top:0;
+	width:85%;
+}
+
+.me-img
+{
+	background:url(https://drive.google.com/uc?export=view&id=1Wx-AIvtWBhXbqCG1IGq-h9Gsov4ltb7N) no-repeat center center ;
+	background-size:100%;
+  background-position:0px;
+	border-radius:100%;
+	height:150px;
+	margin:0 auto;
+	position:relative;
+	width:150px;
+}
+
+.name-hero h1
+{
+	color:#efefef;
+	font-family:Georgia;
+	font-size:1.5em;
+	text-align:center;
+}
+
+.name-hero h1 em
+{
+	color:#efefef;
+	font-style:normal;
+	font-weight:700;
+}
+
+.name-hero p
+{
+	color:#efefef;
+	font-size:.75em;
+	line-height:1.5;
+	margin:0 8px 0 0;
+	text-align:center;
+}
+
+.name-hero .name-text
+{
+	margin:0 auto;
+	width:85%;
+}
+
+.inner
+{
+	margin:0 auto;
+	max-width:975px;
+	padding:3em;
+}
+
+.inner h1
+{
+	font-size:1.75em;
+}
+
+.inner p
+{
+	color:#1e2328;
+
+}
+
+.inner p em
+{
+	color:#1e2328;
+	font-style:normal;
+}
+
+.inner section
+{
+	margin:100px auto;
+}
+
+ul
+{
+	list-style-type:none;
+	margin-top:-10px;
+	max-width:570px;
+	padding:0;
+}
+
+.skill-set li
+{
+	background:#1e2328;
+	border-radius:100px;
+	color:#FFF;
+	display:inline-block;
+	list-style:none;
+	margin:15px 15px 0 0;
+	padding:10px;
+	text-align:justify;
+}
+
+
+@media screen and (max-width: 48em) {
+	.right,.left
+	{
+		float:none;
+    position:relative !important;
+		width:100%;
+    min-height:500px;
+	}
+  .handmade {
+  text-align:center !important;
+  margin-top:0px !important;
+}
+
+@media screen and (max-width: 75em) {
+    body
+{ font-size:16px;}
+}
+
+@media screen and (max-width: 60em) {
+    body
+{ font-size:14px;}
+}
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.handmade {
+  text-align:right;
+  margin-top:100px;
+}
+.handmade em {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.25em;
+  margin-left:5px;
+}
+
+	</style>
+  </head>
+
+<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic|Open+Sans:300,400,500,700|Waiting+for+the+Sunrise|Shadows+Into+Light' rel='stylesheet' type='text/css'>
+
+<div class="wrapper clearfix">
+  <div class="left">
+
+    <div class="name-hero">
+
+      <div class="me-img"></div>
+
+      <div class="name-text">
+
+        <h1>Jimmy <em>Rocha</em></h1>
+        <p>Northampton, MA</p>
+        <p>jimmyhrocha@gmail.com</p>
+        <p>(978) 726-7542</p>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="right">
+
+    <div class="inner">
+	  <section>
+	   <h1>Education</h1>
+        <p><b>University of Massachusetts Amherst</b> | <em>May 2023</em></p>
+		<ul><li>Master of Science in Geographic Information Science & Technology</li>
+		<li>GPA: 3.96</li></ul>
+		<p><b>University of Massachusetts Lowell</b> | <em> May 2017</em></p>
+		<ul><li>Bachelor of Arts in English</li>
+		<li> Minor in Digital Media Studies</li></ul>
+		</section>
+      <section>
+        <h1>Experience</h1>
+        <p><b>Massachusetts Department of Environmental Protection:</b> <i>GIS Intern</i> | <em>Jan 2023 – Present</em></p>
+			<ul2><li>Design and maintain project geodatabases ensuring data integrity and organization</li>
+            <li>Document methodologies to streamline accessible interdepartmental GIS workflows</li>
+            <li>Develop an interactive web map using ArcGIS Online, allowing users to view awarded Nonpoint Source grants and obtain water quality statistics on datasets of choice</li>
+            <li>Conduct comprehensive water quality analysis across Massachusetts using ArcGIS Pro, mapping disparities of clean water access within Environmental Justice communities</li>
+			<li>Author of a statistical report of water quality issues which was shared with the EPA</li><ul2>
+        <p><b>Carelon Behavioral Health:</b> <i>Business Analyst</i> | <em>Sep 2017 – Jan 2023</em></p>
+			<p><li>Tested implementation of system logic and functionalities, identifying and resolving 95% of underlying issues within critical client deadlines</li>
+			   <li>Coordinated interdepartmental meetings to streamline processes, resulting in reductions in project turnaround time and improved client experiences</li>
+			   <li>Led projects to resolve complex claims issues for key accounts, achieving high resolution rates and maintaining stakeholder satisfaction scores in the 90th percentile</li></p>
+        <p><b>WUML Lowell Radio:</b> <i>Disc Jockey</i> | <em>Sep 2015 – Sep 2017</em></p>
+			<p><li>Co-hosted the show: Dirty Douglas, a long-running show highlighting the local music scene in Lowell, MA </li>
+			   <li>Hosted the show: Several Hours with an American Lowlife</li></p>
+      </section>
+      <section>
+        <h1>Technical Skills</h1>
+        <ul class="skill-set">
+          <li>ArcGIS [Desktop, Pro, Online]</li>
+          <li>QGIS</li>
+		  <li>AutoCAD</li>
+		  <li>FME</li> 
+          <li>Python [ArcPy, Geopandas, GDAL, Matplotlib]</li>
+          <li>R [rgdal, sp, leaflet]</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>SQL</li>
+		  <li>Leaflet</li>
+		  <li>Mapbox</li>
+		  <li>OpenStreetMap</li>
+		  <li>ENVI</li>
+		  <li>SNAP</li>
+		  <li>Google Earth Engine</li>
+          <li>Microsoft Power BI</li>
+          <li>Tableau</li>
+		  <li>MySQL</li>
+		  <li>PostgreSQL [PostGIS]</li>
+		  <li>Adobe Creative Cloud</li>
+		  <li>Figma</li>
+		  <li>Google Suite</li>
+		  <li>Microsoft 365</li>
+        </ul>
+      </section>
+      
+
+  </div>
+
+</div>
