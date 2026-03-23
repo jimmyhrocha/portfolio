@@ -1,3 +1,0 @@
-# portfolio
-
-### Jimmy Rocha
